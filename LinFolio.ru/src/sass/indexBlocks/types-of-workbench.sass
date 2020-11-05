@@ -1,0 +1,44 @@
+.types-of-workbench
+  background: url("../img/indexImg/bg2.jpg") center (center / cover) no-repeat
+  &_new_bg
+    background: url("../img/indexImg/bg4.jpg") center (center / cover) no-repeat
+  &__cover
+    height: 20em
+    padding: 1em 1em
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    border: 1px inset rgba(10.01, 0.43, 0.88, 0.25)
+    margin: 2em auto 0
+    background-color: rgba(255, 255, 255, 0.7)
+    transition: 0.5s all
+    overflow: auto
+    &:hover
+      background-color: rgba(124, 186, 255, 0.7)
+      .types-of-workbench
+        &__header
+          color: $main-color
+        &__desc
+          color: $main-color
+  &__bg-icon
+    width: 5.5em
+    height: 5.5em
+    border-radius: 100%
+  &__icon
+    width: 100%
+    height: 100%
+  &__header
+    font-size: 1.2rem
+    font-weight: 400
+    text-align: center
+    text-transform: uppercase
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.3)
+    transition: 0.5s all
+  &__desc
+    font-size: 1.1rem
+    font-weight: 300
+    text-align: center
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.3)
+    height: 50%
+    transition: 0.5s all

@@ -1,0 +1,93 @@
+.line
+  font-size: 2.5rem
+  display: block
+  margin: 0.5em auto 0
+  width: 90%
+  height: 0.15em
+  background-color: $fourth-color
+  box-shadow: 0.1em 0.1em 0.4em black
+.inner-line
+  display: block
+  margin: 0 auto
+  width: 30%
+  height: 100%
+  background-color: $third-color
+
+.btn
+  display: block
+  position: fixed
+  width: 3em
+  height: 3em
+  background-color: rgba(255, 255, 255, 0.45)
+  border-radius: 100%
+  border: 1px inset $third-color
+  z-index: 10
+  &__up
+    top: 6em
+    right: 2em
+  &__down
+    right: 2em
+    bottom: 2em
+  &__img
+    height: 85%
+    display: block
+    &-up
+      margin: .1em auto 0
+    &-down
+      transform: rotate(180deg)
+      margin: .4em auto 0
+
+@media (max-width: 768px)
+  .technologies
+    &__header
+      &_increase
+        font-size: 1.7rem
+
+@media (max-width: 575px)
+  .technologies
+    &__header
+      &_increase
+        font-size: 1.9rem
+
+.technologies
+    &__header
+      &_increase
+        @media (min-width: 769px)
+          font-size: 1.9rem
+    &__icon
+      &_increase
+        width: 16em
+        height: 16em
+
+@media(min-width: 992px)
+  .technologies
+    &__icon
+      &_increase
+        width: 12em
+        height: 12em
+    &__header
+      &_increase
+        @media (max-width: 575px)
+          font-size: 1.45rem
+        @media (max-width: 768px)
+          font-size: 1.7rem
+        @media (min-width: 769px)
+          font-size: 1.4rem
+  .blackout
+    min-height: 90vh
+  .blackout2
+    min-height: 90vh
+
+.blackout
+  background-color: rgba(62, 62, 62, 0.51)
+  padding-top: 3em
+.blackout2
+  background-color: rgba(62, 62, 62, 0.51)
+
+
+@media(min-width: 576px) and (max-width: 768px)
+  .types-of-workbench
+    &__header
+      font-size: 1.3rem
+    &__desc
+      font-size: 1.2rem
