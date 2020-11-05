@@ -1,0 +1,46 @@
+.promo {
+  min-height: 50vh;
+  background: url("../img/aboutMeImg/bg1.jpg") center center/cover no-repeat; }
+  .promo__cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 50vh;
+    background-color: rgba(62, 62, 62, 0.51);
+    padding-top: 2em; }
+  .promo__header {
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 6px 9px 3px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-transform: uppercase; }
+
+.basicInformation {
+  padding: 3em 0 5em 0; }
+  .basicInformation__ul_m {
+    margin-top: 2em; }
+  .basicInformation__text {
+    font-weight: 300;
+    color: #000000;
+    font-size: 1.1rem; }
+  .basicInformation__header {
+    font-weight: 400;
+    color: #000000; }
+
+@media(max-width: 575px) {
+  .promo__header {
+    font-size: 3.15rem; }
+
+  .basicInformation__text {
+    font-size: 1.9rem; }
+  .basicInformation__header {
+    font-size: 2rem; } }
+
+/*# sourceMappingURL=aboutMe.css.map */

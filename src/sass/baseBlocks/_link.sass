@@ -1,0 +1,29 @@
+.link
+    display: inline-block
+    transition: 0.5s all
+    padding: 0.2em
+    border: 1px solid rgba(124, 186, 255, 0)
+    &:hover
+        border: 1px solid $second-color
+    &_go
+        font-weight: 300
+        font-size: 1.7rem
+        text-align: center
+        transition: 0.5s all
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
+        margin-top: .8em
+        border: 1px inset $main-color
+        color: $main-color
+        &:hover
+            text-decoration: none
+            color: #9eccff
+            border: 1px outset #9eccff
+    &_dark
+        color: $fourth-color
+        border: 1px inset $fourth-color
+    &_margin-left
+        margin-left: 8em
+    &_current-page
+        border: 1px solid $second-color
+        .header__link
+            color: $second-color

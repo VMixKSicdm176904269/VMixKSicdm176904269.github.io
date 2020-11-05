@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Сайт-портфолио HTML-верстальщика, верстка на заказ из PSD в HTML, Профессиональная верстка сайтов по PSD макетам на заказ. Верстка сайтов и Landing Page (фиксированная, резиновая, адаптивная) без посадки на CMS."/>
+    <meta name="keywords" content="Сайт-портфолио, bootstrap вёрстка, flex box вёрстка, доработка сайтов, верстка лендингов, адаптивная верстка, готов проконсультировать, html, sass, bootstrap, javascript верстка, верстальщик, заказать верстку, верстка на заказ, верстка из PSD, верстка по PSD">
+    <title>HTML-верстальщик | Веркинов Дэнил Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="css/baseStyle.css">
+    <link rel="stylesheet" href="css/loader.css">
+</head>
+<body>
+<div class="preloader">
+    <svg class="preloader__image" role="img" xmlns="img/load/ball-triangle.svg" viewBox="0 0 512 512">
+        <path fill="currentColor"
+              d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+        </path>
+    </svg>
+</div>
+<script>
+    window.onload = function () {
+        document.body.classList.add('loaded');
+    }
+</script>
+<script>
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 1000);
+    }
+</script>
+    <main>
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav">
+                    <ul class="header__ul">
+                        <li class="link"><a href="index.html" class="header__link header__logo">linFolio.<span class="header__text">ru</span></a></li>
+                        <li class="link link_current-page"><a href="index.html" class="header__link">главная</a></li>
+                        <li class="link"><a href="about-me.html" class="header__link">обо мне</a></li>
+                        <li class="link"><a href="portfolio.html" class="header__link">портфолио</a></li>
+                        <li class="link"><a href="contacts.html" class="header__link">контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="promo" id="promo">
+            <div class="promo__blackout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 promo__cover">
+                        <div class="subcover">
+                            <h1 class="promo__header">ПРОФЕССИОНАЛЬНАЯ <br> ВЕРСТКА САЙТОВ</h1>
+                            <div class="promo__desc">HTML верстальщик - Веркинов Дэнил</div>
+                            <a href="#feedback" class="link link_go link_margin-left">Связаться со мной</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="html-layout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 html-layout__cover">
+                        <h2 class="html-layout__header line1">зачем изпользуют HTML-вёрстку?</h2>
+                        <span class="html-layout__desc">
+                            HTML-верстка сайтов нужна для создания полноценных веб-страниц\сайтов, для последующего размещения оных в сети интернет на всеобщее обозрение. Как правило верстальщик делает свою верстку на основе дизайнерского макета сайта предоставленного клиентом, исходя из его потребностей.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="types-of-workbench tow1">
+            <div class="blackout2">
+                <div class="container">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="html-layout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 html-layout__cover">
+                        <h2 class="html-layout__header line2">мои основные технологии</h2>
+                        <span class="html-layout__desc">
+                            Ниже приведен список основных технологий, которые я использую в своей работе, полный список технологий приведен на странице <a href="#">"Обо мне"</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="technologies">
+            <div class="blackout">
+                <div class="container">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="html-layout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 html-layout__cover">
+                        <h2 class="html-layout__header line3">МОИ ПОСЛЕДНИЕ РАБОТЫ ИЗ ПОРТФОЛИО</h2>
+                        <span class="html-layout__desc">
+                            Несколько моих последних работ, под каждую выделена отдельная страница, все показанные работы я выполнял сам.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+                <div class="container">
+                    <div class="works__carpet">
+                        <div class="row"></div>
+                        <a href="#" class="link link_go link_dark">Посмотреть все работы</a>
+                    </div>
+                </div>
+        </section>
+        <section class="html-layout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 html-layout__cover">
+                        <h2 class="html-layout__header line4">мои положительные качества</h2>
+                        <span class="html-layout__desc">
+                            Ниже перечислены мои положительные качества, о которых вам будет полезно знать.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="types-of-workbench types-of-workbench_new_bg tow2">
+            <div class="blackout2">
+                <div class="container">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="html-layout" id="feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 html-layout__cover">
+                        <h2 class="html-layout__header line5">ОБРАТНАЯ СВЯЗЬ</h2>
+                        <span class="html-layout__desc">
+                            Вы можете связаться со мной, найдя меня в социальных сетях «ВКонтакте» и «Telegram» или написав мне на почту, которая также указана ниже. В будущем мне также можно будет написать в «WhatsApp».
+                        </span>
+                        <span class="html-layout__desc html-layout__desc_importantly">
+                            Внимание! Чтобы назвать точные сроки и цену - мне необходимо посмотреть все макеты, которые нужно сверстать, а так же ознакомиться с ТЗ (если таковое имеется).
+                            Поэтому когда пишите, прикладывайте пожалуйста к сообщению макеты и тз если оно имеется.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="references">
+            <div class="container">
+                <div class="row">
+                    <div class="references__block">
+                        <img src="icons/references/MetroMail_metro_11266.png" alt="mail" class="references__icon">
+                        <spun class="references__link">- - - - - - - - - - - - - - -</spun>
+                    </div>
+                    <div class="references__block">
+                        <img src="icons/references/iconfinder-social-media-applications-32vk-4102593_113806.svg" alt="vk" class="references__icon">
+                        <spun class="references__link">- - - - - - - - - - - - - - -</spun>
+                    </div>
+                    <div class="references__block">
+                        <img src="icons/references/telegram_icon_130816.svg" alt="telegram" class="references__icon">
+                        <spun class="references__link">- - - - - - - - - - - - - - -</spun>
+                    </div>
+                    <div class="references__block">
+                        <img src="icons/references/whatsapp_socialnetwork_17360.svg" alt="whatsapp" class="references__icon">
+                        <spun class="references__link">- - - - - - - - - - - - - - -</spun>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer__header">LinFolio.ru</div>
+                        <div class="footer__desc">
+                            Сайт-портфолио HTML-верстальщика, где вы можете заказать качественную и адаптивную верстку
+                            для вашего сайта по PSD макетам. Принимаются заказы на вёрстку Лендингов, цельных сайтов,
+                            правки по сайту, изменение дизайна сайта, устранение багов верстки, и верстку отдельных страниц
+                            без посадки на CMS.
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-sm-6">
+                        <div class="footer__header">НАВИГАЦИЯ</div>
+                        <ul class="footer__ul">
+                            <li class="footer__li"><a href="index.html" class="footer__link">Главная</a></li>
+                            <li class="footer__li"><a href="about-me.html" class="footer__link">Обо мне</a></li>
+                            <li class="footer__li"><a href="portfolio.html" class="footer__link">Портфолио</a></li>
+                            <li class="footer__li"><a href="contacts.html" class="footer__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3  offset-lg-1 col-sm-6">
+                        <div class="footer__header">информация</div>
+                        <div class="footer__desc">
+                            Copyright © Веркинов Дэнил (LinFolio.ru) 2020 Все права защищены
+                            <br><br>
+                            Копирование авторских текстов с сайта запрещено.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/indexScript.js"></script>
+</body>
+</html>
